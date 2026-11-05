@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio de Hakim, étudiant en informatique à HESTIM School Casablanca.">
+    <meta name="author" content="Hakim">
+
+    <title>Hakim | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background-glow"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                H<span>.</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#education" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">Me contacter ↗</a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Ouvrir le menu"
+                    aria-expanded="false">
+                <i data-lucide="menu"></i>
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero container" id="home">
+
+            <div class="hero-content reveal">
+
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Étudiant en informatique
+                </div>
+
+                <p class="hero-intro">BONJOUR, JE SUIS</p>
+
+                <h1>
+                    Hakim <br>
+                    <span class="gradient-text">Future Developer.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Étudiant en première année du cycle préparatoire
+                    informatique à HESTIM School, Casablanca.
+                    Passionné par la technologie, la programmation
+                    et la création de solutions digitales.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Découvrir mes projets
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Me contacter
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/hakim-bns-441622442/"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i data-lucide="github"></i>
+                    </a>
+
+                    <a href="mailto:hakim@example.com"
+                       aria-label="Email">
+                        <i data-lucide="mail"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-visual reveal">
+
+                <div class="profile-card">
+
+                    <div class="card-top">
+                        <span class="card-dot"></span>
+                        <span class="card-dot"></span>
+                        <span class="card-dot"></span>
+                        <span class="card-label">developer.js</span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="purple">const</span> developer = {</p>
+                        <p class="indent">name: <span class="green">"Hakim"</span>,</p>
+                        <p class="indent">school: <span class="green">"HESTIM"</span>,</p>
+                        <p class="indent">field: <span class="green">"Computer Science"</span>,</p>
+                        <p class="indent">passion: <span class="green">"Technology"</span>,</p>
+                        <p class="indent">status: <span class="green">"Learning..."</span></p>
+                        <p>};</p>
+                        <br>
+                        <p><span class="purple">function</span> <span class="blue">createFuture</span>() {</p>
+                        <p class="indent">return <span class="green">"Innovation 🚀"</span>;</p>
+                        <p>}</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <span>●</span> Always learning, always building.
+                    </div>
+
+                </div>
+
+                <div class="floating-badge badge-one">
+                    <i data-lucide="code-2"></i>
+                    <span>Clean Code</span>
+                </div>
+
+                <div class="floating-badge badge-two">
+                    <i data-lucide="lightbulb"></i>
+                    <span>Creative Mind</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About -->
+        <section class="section container" id="about">
+
+            <div class="section-heading reveal">
+                <span class="section-number">01 / ABOUT</span>
+                <h2>À propos de <span class="gradient-text">moi.</span></h2>
+                <p>Un étudiant curieux, motivé par l'univers informatique.</p>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+                    <h3>Construire aujourd'hui, innover demain.</h3>
+
+                    <p>
+                        Je suis Hakim, étudiant en première année du cycle
+                        préparatoire informatique à HESTIM School,
+                        à Casablanca.
+                    </p>
+
+                    <p>
+                        Je développe progressivement mes connaissances
+                        dans le domaine de l'informatique et je m'intéresse
+                        particulièrement à la programmation, au développement
+                        web et aux nouvelles technologies.
+                    </p>
+
+                    <p>
+                        Mon objectif est de renforcer mes compétences,
+                        réaliser des projets concrets et évoluer vers
+                        le métier de développeur informatique.
+                    </p>
+                </div>
+
+                <div class="about-cards reveal">
+
+                    <div class="info-card">
+                        <i data-lucide="graduation-cap"></i>
+                        <div>
+                            <h4>Formation</h4>
+                            <p>Cycle préparatoire informatique</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Casablanca, Maroc</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <i data-lucide="target"></i>
+                        <div>
+                            <h4>Objectif</h4>
+                            <p>Devenir développeur informatique</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <i data-lucide="rocket"></i>
+                        <div>
+                            <h4>Mindset</h4>
+                            <p>Learning by doing</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section container" id="skills">
+
+            <div class="section-heading reveal">
+                <span class="section-number">02 / SKILLS</span>
+                <h2>Mes <span class="gradient-text">compétences.</span></h2>
+                <p>Les technologies que j'apprends et que je développe.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i data-lucide="code"></i></div>
+                    <h3>HTML5</h3>
+                    <p>Structure des pages web</p>
+                    <span class="skill-tag">À compléter</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i data-lucide="palette"></i></div>
+                    <h3>CSS3</h3>
+                    <p>Design et responsive design</p>
+                    <span class="skill-tag">À compléter</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i data-lucide="braces"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>Interactions et logique web</p>
+                    <span class="skill-tag">À compléter</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i data-lucide="terminal"></i></div>
+                    <h3>Programming</h3>
+                    <p>Algorithmique et programmation</p>
+                    <span class="skill-tag">À compléter</span>
+                </div>
+
+            </div>
+
+            <p class="skills-note">
+                Remplace ces exemples par les langages et outils que tu maîtrises réellement.
+            </p>
+
+        </section>
+
+        <!-- Projects -->
+        <section class="section container" id="projects">
+
+            <div class="section-heading reveal">
+                <span class="section-number">03 / PROJECTS</span>
+                <h2>Mes <span class="gradient-text">projets.</span></h2>
+                <p>Une sélection de mes réalisations personnelles et académiques.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+
+                    <div class="project-visual project-one">
+                        <i data-lucide="monitor"></i>
+                        <span>PROJECT 01</span>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-category">WEB DEVELOPMENT</span>
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            Création d'un portfolio personnel pour présenter
+                            mon profil, mes compétences et mes réalisations.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Projet en cours <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="project-card reveal">
+
+                    <div class="project-visual project-two">
+                        <i data-lucide="calculator"></i>
+                        <span>PROJECT 02</span>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-category">PERSONAL PROJECT</span>
+                        <h3>Projet à venir</h3>
+                        <p>
+                            Présente ici une application ou un exercice
+                            informatique que tu auras développé.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Technology</span>
+                            <span>Programming</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            À découvrir <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section container" id="education">
+
+            <div class="section-heading reveal">
+                <span class="section-number">04 / EDUCATION</span>
+                <h2>Mon <span class="gradient-text">parcours.</span></h2>
+                <p>Mon parcours académique et mon évolution.</p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+                        <span class="timeline-date">En cours</span>
+                        <h3>Première année – Cycle préparatoire informatique</h3>
+                        <h4>HESTIM School · Casablanca</h4>
+                        <p>
+                            Formation et développement des bases en informatique,
+                            algorithmique et technologies numériques.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <section class="section container" id="contact">
+
+            <div class="contact-box reveal">
+
+                <span class="section-number">05 / CONTACT</span>
+
+                <h2>Construisons quelque chose de <span class="gradient-text">grand.</span></h2>
+
+                <p>
+                    Tu souhaites échanger, partager une idée ou discuter
+                    d'un projet ? N'hésite pas à me contacter.
+                </p>
+
+                <a href="mailto:hakim@example.com" class="btn btn-primary">
+                    Envoyer un email
+                    <i data-lucide="send"></i>
+                </a>
+
+                <div class="contact-socials">
+                    <a href="https://www.linkedin.com/in/hakim-bns-441622442/"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                    <a href="https://github.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">H<span>.</span></a>
+            <p>© <span id="year"></span> Hakim. Designed & developed with passion.</p>
+            <a href="#home" class="back-top">Retour en haut ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
